@@ -2,9 +2,6 @@
   "name": "meal-sharing",
   "version": "1.0.0",
   "description": "Website for sharing meals",
-  "engines": {
-    "node": "8.11.1"
-  },
   "scripts": {
     "build": "webpack --mode production",
     "start": "npm run build && node ./src/backend/server",
