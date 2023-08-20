@@ -12,7 +12,7 @@
   },
   "author": "Benjamin Hughes",
   "license": "MIT",
-  "proxy": "http://localhost:5001",
+  "proxy": "http://localhost:5000",
   "dependencies": {
     "@babel/core": "^7.12.3",
     "@babel/plugin-proposal-class-properties": "^7.12.1",
@@ -40,6 +40,7 @@
     "multer": "^1.3.0",
     "mysql2": "^2.1.0",
     "path": "^0.12.7",
+    "pg": "^8.11.3",
     "postman": "^0.2.0",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
