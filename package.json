@@ -14,7 +14,7 @@
   },
   "author": "Benjamin Hughes",
   "license": "MIT",
-  "proxy": "http://localhost:5000",
+  "proxy": "http://localhost:5001",
   "dependencies": {
     "@babel/core": "^7.12.3",
     "@babel/plugin-proposal-class-properties": "^7.12.1",
