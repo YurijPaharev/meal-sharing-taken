@@ -85,6 +85,8 @@ You should take your environment variable key names from your .env file.
 
 In order to fill your DB variables, go to your **Connections** in your deployed DB and copy information from there (for the host, simply use the **Host** mentioned in the list of elements since it is an internal coonection on one server). After you filled all the information - press **Save Changes** and press **Manual deploy** in the top of the page.
 
+Environment variables like API_PORT, CLIENT_PORT, API_PATH - you should take from your `.env` file.
+
 ![Manual deploy](ws_9.png)
 
 Then return to the **Logs** page and check if everything was built successfully
