@@ -146,9 +146,23 @@ You should see your database name that you have made and all other details that 
 
 In the final step we need to check that we can connect to our DB from our machine and execute queries in order to create tables.
 
+##### VSCode
+We can use VSCode extension in order to connect to the external DB as well. Navigate to the page with your **Connections** details - you would need to grab data from there. 
+Open your VSCode extension and create a new connection. Choose **PostgreSQL** and fill in the information
+
+![External connectio](db_9.png)
+
+Make sure that you are connecting to the right type of DB (PostgreSQL in this case).
+Make sure to click on the SSL connection in the bottom (beacuse we are establishing external connection).
+For the **Host** you need to copy your **External Database URL**, but you only need to paste a small portion of it
+
+**Example:** Your copied link is - 
+`postgres://root:n9RPnGcmnEPr3n1sfgpGqTywc1I0b01l@erf-cjflbk3bq0er739v1h53-a.frankfurt-postgres.render.com/database_name` - that means that you need to copy ONLY the part between @ and / - `erf-cjflbk3bq0er739v1h53-a.frankfurt-postgres.render.com`
+
 ##### Windows
 For the windows installation please follow [this guide](https://www.guru99.com/download-install-postgresql.html)
 
+After the installation you would be able to connect to the DB either with pgAdmin program, or pSQL (be sure to enter correct information)
 ##### Linux
 For the linux installation please follow [this guide](https://www.guru99.com/install-postgresql-on-ubuntu.html)
 
