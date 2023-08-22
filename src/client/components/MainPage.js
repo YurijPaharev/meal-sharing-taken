@@ -9,7 +9,7 @@ function MainPage() {
 
   useEffect(() => {
     (async () => {
-      const data = await fetch("http://localhost:5000/api/meals?limit=5").then(
+      const data = await fetch("api/meals?limit=5").then(
         (data) => data.json()
       );
       setMeals(data);
